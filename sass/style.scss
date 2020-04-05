@@ -1,17 +1,16 @@
-/*global*/
-
-
-section {
-    background-color: blanchedalmond;
-}
-
-.container {
-    position: absolute;
+.splash {
+    min-height: 500px;
     display: flex;
-    align-items: center;
-    align-content: center;
+}
+.splash-inner {
+    margin: auto;
+    max-width: 70%;
 }
 
-.links a {
-    color: black;
+.splash-inner h1 {
+    color: red;
+}
+
+.page-title {
+    color: pink;
 }

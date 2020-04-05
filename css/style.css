@@ -1,19 +1,19 @@
-/*global*/
-section {
-  background-color: blanchedalmond;
-}
-
-.container {
-  position: absolute;
+.splash {
+  min-height: 500px;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
-.links a {
-  color: black;
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+}
+
+.splash-inner h1 {
+  color: red;
+}
+
+.page-title {
+  color: pink;
 }
 /*# sourceMappingURL=style.css.map */
